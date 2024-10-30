@@ -1,0 +1,426 @@
+# WordPress Blank Pot
+# Copyright (C) 2014 ...
+# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: "
+"LIQUID BLOCKS\n"
+"Report-Msgid-Bugs-To: "
+"Translator Name "
+"<translations@example."
+"com>\n"
+"POT-Creation-Date: "
+"2024-10-24 17:14+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your "
+"Name <you@example.com>\n"
+"Language-Team: LIQUID "
+"DESIGN Ltd.\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/"
+"plain; charset=UTF-8\n"
+"Content-Transfer-"
+"Encoding: 8bit\n"
+"Plural-Forms: "
+"nplurals=2; plural=n != "
+"1;\n"
+"X-Textdomain-Support: "
+"yesX-Generator: Poedit "
+"1.6.4\n"
+"X-Poedit-SourceCharset: "
+"UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;esc_html_e;"
+"esc_html_x:1,2c;"
+"esc_html__;esc_attr_e;"
+"esc_attr_x:1,2c;"
+"esc_attr__;_ex:1,2c;"
+"_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_x:1,2c;"
+"_n:1,2;_n_noop:1,2;"
+"__ngettext:1,2;"
+"__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit "
+"3.4.2\n"
+"X-Poedit-"
+"SearchPath-0: .\n"
+"X-Poedit-"
+"SearchPathExcluded-0: "
+"*node_modules\n"
+
+#: lib/block-cards.js:13
+msgid "Card"
+msgstr ""
+
+#: lib/block-cards.js:51
+msgid "Card Settings"
+msgstr ""
+
+#: lib/block-cards.js:52
+#: lib/block-cards.js:184
+msgid "Text Color"
+msgstr ""
+
+#: lib/block-cards.js:57
+#: lib/block-cards.js:189
+msgid "Background Color"
+msgstr ""
+
+#: lib/block-cards.js:62
+#: lib/block-cards.js:194
+msgid "Border Color"
+msgstr ""
+
+#: lib/block-cards.js:134
+msgid "Accordion"
+msgstr ""
+
+#: lib/block-cards.js:178
+msgid "Accordion Settings"
+msgstr ""
+
+#: lib/block-cards.js:180
+msgid "Is Open"
+msgstr ""
+
+#: lib/block-custom-field.js:15
+msgid "Custom Field"
+msgstr ""
+
+#: lib/block-custom-field.js:62
+msgid ""
+"Custom Field Settings"
+msgstr ""
+
+#: lib/block-custom-field.js:66
+msgid "Custom Field Key"
+msgstr ""
+
+#: lib/block-custom-field.js:71
+msgid ""
+"Enter custom field key "
+"to display data on "
+"public screens."
+msgstr ""
+
+#: lib/block-custom-field.js:77
+msgid "Post ID"
+msgstr ""
+
+#: lib/block-custom-field.js:82
+msgid ""
+"Enter a Post ID to "
+"retrieve custom field "
+"data from a specific "
+"post. Leave empty to "
+"use current post."
+msgstr ""
+
+#: lib/block-custom-field.js:88
+msgid "Field Type"
+msgstr ""
+
+#: lib/block-custom-field.js:91
+msgid "Text"
+msgstr ""
+
+#: lib/block-custom-field.js:92
+msgid "Image"
+msgstr ""
+
+#: lib/block-custom-field.js:97
+msgid ""
+"Select whether the "
+"custom field is a text "
+"or an image field."
+msgstr ""
+
+#: lib/block-custom-field.js:116
+msgid "Custom Field Key: "
+msgstr ""
+
+#: lib/block-custom-field.js:116
+msgid "Null"
+msgstr ""
+
+#: lib/block-custom-field.js:116
+msgid "Post ID: "
+msgstr ""
+
+#: lib/block-custom-field.js:116
+msgid "Current Post"
+msgstr ""
+
+#: lib/block-slider.js:18
+#: lib/block-slider.js:197
+#: lib/block-slider.js:242
+msgid "Slide"
+msgstr ""
+
+#: lib/block-slider.js:93
+msgid "Up"
+msgstr ""
+
+#: lib/block-slider.js:100
+msgid "Down"
+msgstr ""
+
+#: lib/block-slider.js:106
+msgid "Remove"
+msgstr ""
+
+#: lib/block-slider.js:123
+msgid "Carousel Slider"
+msgstr ""
+
+#: lib/block-slider.js:214
+msgid "Add Slide"
+msgstr ""
+
+#: lib/block-slider.js:226
+msgid "Slider Settings"
+msgstr ""
+
+#: lib/block-slider.js:229
+msgid ""
+"Delay (millisecond)"
+msgstr ""
+
+#: lib/block-slider.js:234
+msgid ""
+"Number of slides per "
+"view"
+msgstr ""
+
+#: lib/block-slider.js:239
+msgid "Effect"
+msgstr ""
+
+#: lib/block-slider.js:243
+msgid "Fade"
+msgstr ""
+
+#: lib/block-slider.js:248
+msgid "Auto Play"
+msgstr ""
+
+#: lib/block.js:72
+#: liquid-blocks.php:172
+#: src/block.js:57
+msgid "Layouts"
+msgstr ""
+
+#: lib/block.js:87
+#: lib/block.js:95
+#: src/block.js:67
+#: src/block.js:73
+msgid "LIQUID BLOCKS"
+msgstr ""
+
+#: lib/block.js:100
+#: liquid-blocks.php:574
+#: src/block.js:76
+msgid "Shortcuts"
+msgstr ""
+
+#: lib/block.js:225
+#: liquid-blocks.php:81
+#: liquid-blocks.php:557
+#: src/block.js:173
+msgid "Settings"
+msgstr ""
+
+#: lib/block.js:233
+#: src/block.js:177
+msgid "Gallery"
+msgstr ""
+
+#: lib/block.js:245
+#: src/block.js:184
+msgid ""
+"Just choose your "
+"favorite design!"
+msgstr ""
+
+#: lib/block.js:295
+#: liquid-blocks.php:306
+#: liquid-blocks.php:565
+#: liquid-blocks.php:566
+#: src/block.js:233
+msgid ""
+"Block Pattern Manager"
+msgstr ""
+
+#: lib/block.js:301
+#: src/block.js:233
+msgid "LIQUID PRESS"
+msgstr ""
+
+#: lib/block.js:316
+#: lib/block.js:324
+#: src/block.js:244
+#: src/block.js:256
+msgid "Mark"
+msgstr ""
+
+#: lib/block.js:334
+#: lib/block.js:342
+#: src/block.js:266
+#: src/block.js:278
+msgid "Big"
+msgstr ""
+
+#: lib/block.js:352
+#: lib/block.js:360
+#: src/block.js:288
+#: src/block.js:300
+msgid "Small"
+msgstr ""
+
+#: lib/block.js:370
+#: lib/block.js:378
+#: src/block.js:310
+#: src/block.js:322
+msgid "Underline"
+msgstr ""
+
+#: lib/block.js:447
+#: src/block.js:389
+msgid ""
+"The copied block can be "
+"inserted with \"Ctrl + "
+"v\"."
+msgstr ""
+
+#: liquid-blocks.php:133
+msgid "Block Patterns"
+msgstr ""
+
+#: liquid-blocks.php:140
+#: liquid-blocks.php:380
+msgid "Untitled block"
+msgstr ""
+
+#: liquid-blocks.php:170
+#: liquid-blocks.php:222
+msgid "Headlines"
+msgstr ""
+
+#: liquid-blocks.php:174
+msgid "Price list"
+msgstr ""
+
+#: liquid-blocks.php:176
+msgid ""
+"CTA: Call To Action"
+msgstr ""
+
+#: liquid-blocks.php:178
+msgid "Landing pages"
+msgstr ""
+
+#: liquid-blocks.php:180
+msgid ""
+"Recommended Plugins"
+msgstr ""
+
+#: liquid-blocks.php:186
+msgid "Copy"
+msgstr ""
+
+#: liquid-blocks.php:187
+msgid "Insert"
+msgstr ""
+
+#: liquid-blocks.php:188
+msgid "Select"
+msgstr ""
+
+#: liquid-blocks.php:189
+msgid "Cancel"
+msgstr ""
+
+#: liquid-blocks.php:190
+msgid "Close"
+msgstr ""
+
+#: liquid-blocks.php:310
+#: liquid-blocks.php:311
+#: liquid-blocks.php:312
+msgid "Block Pattern"
+msgstr ""
+
+#: liquid-blocks.php:313
+msgid "Block Pattern List"
+msgstr ""
+
+#: liquid-blocks.php:314
+#: liquid-blocks.php:315
+#: liquid-blocks.php:350
+msgid "Add New"
+msgstr ""
+
+#: liquid-blocks.php:316
+msgid "Edit"
+msgstr ""
+
+#: liquid-blocks.php:342
+#: liquid-blocks.php:349
+msgid ""
+"Block Pattern Category"
+msgstr ""
+
+#: liquid-blocks.php:351
+msgid ""
+"Press the Enter key."
+msgstr ""
+
+#: liquid-blocks.php:466
+msgid ""
+"No custom field "
+"selected."
+msgstr ""
+
+#: liquid-blocks.php:482
+#: liquid-blocks.php:483
+msgid "Patterns"
+msgstr ""
+
+#: liquid-blocks.php:519
+msgid "illegal data"
+msgstr ""
+
+#: liquid-blocks.php:550
+msgid "Recommend"
+msgstr ""
+
+#: liquid-blocks.php:567
+msgid "Featured Image"
+msgstr ""
+
+#: liquid-blocks.php:568
+msgid ""
+"Enable default block "
+"pattern"
+msgstr ""
+
+#: liquid-blocks.php:575
+msgid ""
+"Sidebar shortcut button "
+"settings."
+msgstr ""
+
+#: liquid-blocks.php:575
+msgid ""
+"Enter any name, gallery "
+"category name, and "
+"number."
+msgstr ""
+
+#: liquid-blocks.php:587
+msgid "Enable"
+msgstr ""

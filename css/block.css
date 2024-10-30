@@ -1,0 +1,287 @@
+@charset "utf-8";
+/*
+Author: LIQUID DESIGN Ltd.
+Author URI: https://lqd.jp/wp/
+*/
+
+/* patterns */
+p.has-background {
+    padding: 1rem 2rem;
+}
+.is-style-d-inline-block {
+    display: inline-block;
+}
+.is-style-w-25 {
+    width: 25%;
+}
+.is-style-w-50 {
+    width: 50%;
+}
+.is-style-w-75 {
+    width: 75%;
+}
+.is-style-right {
+    margin-left: auto;
+    margin-right: 0;
+}
+.is-style-rounded, .is-style-rounded img {
+    border-radius: .25rem;
+}
+.is-style-rounded-circle, .is-style-rounded-circle img {
+    border-radius: 50%;
+}
+.is-style-shadow {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+.is-style-shadow figcaption {
+    padding-bottom: .5em;
+    text-align: center;
+}
+
+.is-style-overlay {
+    display: block;
+    position: relative;
+    z-index: 20;
+}
+.is-style-overlay.wp-block-button {
+    margin-top: -8rem;
+    margin-bottom: 6rem;
+}
+
+.is-style-heapup {
+    position: relative;
+    z-index: 20;
+    line-height: 1.2;
+    padding: 2rem;
+    width: 85%;
+    margin-top: -5rem;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    box-shadow: 0 -0.5rem 1rem 0 rgba(0,0,0,.15);
+}
+.is-style-heapup span {
+    border: 0 none;
+    padding: 0;
+    margin: 0;
+}
+
+.is-style-non-grid-left {
+    width: 85%;
+    margin-left: 0;
+    margin-right: auto;
+}
+.is-style-non-grid-right {
+    width: 85%;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.is-style-upper {
+    z-index: 2;
+}
+.is-style-liquid:not(.is-style-rounded), .is-style-liquid:not(.is-style-rounded) img {
+    border-radius: 60% 50% 50% 60% / 70% 40% 70% 40%;
+}
+.is-style-liquid-2:not(.is-style-rounded), .is-style-liquid-2:not(.is-style-rounded) img {
+    border-radius: 70% 40% 40% 70% / 60% 50% 60% 50%;
+}
+.is-style-liquid-3:not(.is-style-rounded), .is-style-liquid-3:not(.is-style-rounded) img {
+    border-radius: 90% 60% 80% 70%;
+}
+.is-style-liquid-big:not(.is-style-rounded), .is-style-liquid-big:not(.is-style-rounded) img {
+    max-width: 120%;
+    border-radius: 50% 70% 70% 50% / 40% 50% 60% 70%;
+}
+.is-style-liquid-big-2:not(.is-style-rounded), .is-style-liquid-big-2:not(.is-style-rounded) img {
+    border-radius: 60% 40% 50% 40% / 50% 40% 50% 40%;
+}
+.is-style-liquid-big-2:not(.is-style-rounded) img {
+    margin-left: -20%;
+    max-width: 120%;
+}
+@media (max-width: 599px){
+    .wp-block-cover .is-style-w-25,
+    .wp-block-cover .is-style-w-50,
+    .wp-block-cover .is-style-w-75,
+    .is-style-heapup {
+        font-size: large;
+    }
+    .is-style-liquid-big, .is-style-liquid-big img,
+    .is-style-liquid-big-2, .is-style-liquid-big-2 img {
+        z-index: 0;
+        margin-left: 0;
+        max-width: 100%;
+    }
+}
+
+/* slider */
+.swiper-wrapper a, .swiper-wrapper a:hover {
+    text-decoration: none !important;
+}
+.swiper-container {
+    width: 100%;
+}
+.swiper-pagination {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+.notOverlay + .swiper-pagination {
+    position: relative;
+    bottom: 0 !important;
+}
+.swiper-pagination-bullet {
+    background-color: #333;
+}
+.swiper-button-next,
+.swiper-button-prev {
+    color: #fff;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    z-index: 10;
+    text-shadow: 1px 1px 5px #00000080;
+}
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    font-size: 30px;
+}
+.swiper-slide {
+    position: relative;
+}
+.swiper-slide > a {
+    display: block;
+    line-height: 0;
+}
+.swiper-slide img {
+    width: 100%;
+    height: auto;
+}
+.swiper-slide-container {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    align-items: start;
+    padding: 0 4rem;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.notOverlay .swiper-slide-container {
+    position: static;
+    padding: 0;
+}
+.swiper-slide-text, .swiper-slide-btn {
+    font-size: x-large;
+    display: inline-block;
+    line-height: 1.3;
+}
+.swiper-slide-text {
+    margin-bottom: 1rem;
+}
+.swiper-slide-btn {
+    top: auto;
+    bottom: 2rem;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+
+.swiper-slide-text[style*="text-align: cente"],
+.swiper-slide-btn[style*="text-align: cente"] {
+    margin-left: auto;
+    margin-right: auto;
+}
+.swiper-slide-text[style*="text-align: right"],
+.swiper-slide-btn[style*="text-align: right"] {
+    margin-left: auto;
+}
+@media (max-width: 599px) {
+    .swiper-slide-container {
+        padding: 0 1rem;
+    }
+    .swiper-slide-text, .swiper-slide-btn {
+        font-size: clamp(0rem, 5vw, 3rem) !important;
+    }
+    .swiper-button-next, .swiper-button-prev {
+        width: 15px;
+        height: 15px;
+    }
+    .swiper-button-next {
+        right: 0;
+    }
+    .swiper-button-prev {
+        left: 0;
+    }
+    .swiper-button-next:after, .swiper-button-prev:after {
+        font-size: 15px;
+    }
+}
+
+/* card */
+.wp-block-liquid-card {
+    border: 1px solid #00000080;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+}
+.liquid-card-top {
+    margin: 0;
+    padding: .5rem 1rem;
+}
+.liquid-card-bottom {
+    padding: 0 1rem;
+}
+.liquid-card-bottom p.has-background {
+    margin: 0 -1rem;
+    padding: 1rem;
+}
+
+/* accordion */
+.wp-block-liquid-accordion {
+    border: 1px solid #00000080;
+}
+.liquid-accordion-top {
+    margin: 0;
+    padding: .5rem 1rem;
+    display: block;
+    cursor: pointer;
+    position: relative;
+    user-select: none;
+}
+.liquid-accordion-top::-webkit-details-marker {
+    display: none;
+}
+.liquid-accordion-top::before {
+    content: "\02228";
+    position: absolute;
+    right: 1rem;
+    font-weight: bold;
+    transform: scale(1.8, 1);
+}
+.wp-block-liquid-accordion[open] .liquid-accordion-top::before {
+    transform: scale(1.8, 1) rotate(180deg);
+}
+
+.liquid-accordion-bottom {
+    padding: 0 1rem;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+    visibility: hidden;
+}
+.liquid-accordion-bottom p.has-background {
+    margin: 0 -1rem;
+    padding: 1rem;
+}
+.wp-block-liquid-accordion[open] .liquid-accordion-bottom {
+    opacity: 1;
+    visibility: visible;
+}
